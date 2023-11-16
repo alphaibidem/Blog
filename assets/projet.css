@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+}
+
+
+.section-loisir {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 40px -16px rgb(172, 6, 114);
+    box-shadow: 3px 3px rgb(172, 6, 114), -1em 0 .4em white;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(172, 6, 114);
+}
+
+.section-loisir img {
+    display: inline;
+    float: left;
+
+}
+
+li a {
+
+    text-decoration: none;
+    color: rgb(172, 6, 114);
+
+    border: thick double white;
+    padding: 1px
+}
+
+li a:hover {
+    color: white;
+    text-decoration: underline overline;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(172, 6, 114);
+
+    border: thick double white;
+    padding: 1px
+}
+
+p a:hover {
+    color: white;
+    text-decoration: underline overline;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .section {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .section-loisir img {
+        width: 100%;
+        margin-right: 0;
+    }
+}
